@@ -60,10 +60,19 @@ width: 65%;
     text-decoration: none;
     color: #732104
 }
-.ancorCard {
-  text-decoration: none;
-  font-family: "Hind Siliguri", sans-serif;
-}
+
+/* QUI INIZIA IL MAIN */
+h1 {
+    font-size: 2em;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  margin: 30px 0px;
+  color: #732104;}
+
+
+
+
+
 
 body {
   margin: 0px 15px;
@@ -72,25 +81,97 @@ body {
 span {
   display: block;
 }
-h1 {
-  text-align: center;
-  font-family: "Archivo Black", sans-serif;
-  margin: 25px 0px;
-  color: #732104;
+
+
+
+
+/* SECONDA CARD */
+.secondDiv {
+    background-color: #fef7e2;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    height: 315px;
+    border-radius: 20%;
+    margin-bottom: 25px;
 }
-.carddiv {
-  background-color: orangered;
-  text-align: center;
-  margin-bottom: 40px;
-  border-radius: 20%;
-  padding-bottom: 25px;
+
+
+.HoneyCard {
+    max-width: 100%;
+    border-radius: 20% 20% 0% 0%;
 }
-.imgCard {
-  max-width: 100%;
-  border-radius: 20% 20% 0% 0%;
+
+.middleDiv {
+    margin-top: 13px;
+    margin-bottom: 23px;
+    display: flex;
+    justify-content:space-around
 }
-.addCard {
-  background-color: #ffdf7f;
-  padding: 5px 50px;
-  border-radius: 20px;
+
+h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    color: #6f220e;
+    
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 200;
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+    color: #821504;
+}
+
+.Dollaro {
+    align-self: center;
+    color: #821504;
+}
+
+.AddToCard {
+    border-radius: 24px;
+    background-color: #ffdf7f ;
+    padding: 6px 45px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #700900;
+}
+
+/* DOPO LE CARD  */
+
+h2 {
+    font-size: 1.5rem;
+    color: #732104;
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    margin: 35px 0px 20px 0px;
+}
+
+#lastDiv {
+    /*  #fef7e2 */
+    border-radius: 25px;
+    background-color: #fef7e2;
+width: 100%;
+}
+h4 {
+    font-size: 1rem;
+    color: #732104;
+    font-family: "Archivo Black", sans-serif;
+    margin-bottom: 15px;
+}
+
+#lastImg {
+    max-width: 100%;
+}
+
+#lastP {
+    margin-bottom: 25px
+}
+
+#Lorem {
+    text-align: start;
+    padding: 20px;
+}
 }
